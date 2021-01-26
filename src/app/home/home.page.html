@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  
+  <ion-button expand="full" fill="outline" (click)="callPlugin()">Start Netmera</ion-button>
+  <br />
+
+  <ion-button expand="full" fill="outline" (click)="requestPushNotificationAuthorization()">Push Request</ion-button>
+  <br />
+
+  <ion-button expand="full" fill="outline" (click)="subscribePushNotification()">Subscribe Push Notification</ion-button>
+  <br />
+
+  <ion-button expand="full" fill="outline" (click)="subscribePushClick()">Subscribe Push Click</ion-button>
+  <br />
+
+  <ion-button expand="full" fill="outline" (click)="subscribeButtonPushClick()">Subscribe Push Button Click</ion-button>
+  <br />
+
+  <ion-button expand="full" fill="outline" (click)="sendEvent()">Send Event</ion-button>
+  <br />
+
+  <ion-button expand="full" fill="outline" (click)="fetchInboxUsingFilter()">Fetch Inbox</ion-button>
+  <br />
+
+  <ion-button expand="full" fill="outline" (click)="fetchNextPage()">Fetch Next Page</ion-button>
+  <br />
+
+  <ion-button expand="full" (click)="countForStatus()">Count</ion-button>
+  <br />
+
+  <ion-button expand="full" (click)="updatePushStatus()">Update Status</ion-button>
+  <br />
+
+  <ion-button expand="full" fill="outline" (click)="updateUser()">Update User</ion-button>
+  <br />
+</ion-content>
