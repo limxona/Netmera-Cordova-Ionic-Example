@@ -22,6 +22,7 @@ export class HomePage {
 
     let key = ""; // Netmera Key
     let fcmKey = ""; // FCM Key
+    let baseUrl = ""; // on-pre setup url
     this.netmera.start(key, fcmKey);
     this.netmera.requestPushNotificationAuthorization();
   }
